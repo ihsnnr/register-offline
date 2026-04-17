@@ -1,0 +1,58 @@
+package com.registeroffline.data.repository
+
+import com.registeroffline.core.local.entity.MemberEntity
+import com.registeroffline.domain.model.Member
+
+fun MemberEntity.toDomain() = Member(
+    id = id,
+    name = name,
+    nik = nik,
+    phone = phone,
+    birthPlace = birthPlace,
+    birthDate = birthDate,
+    gender = gender,
+    maritalStatus = maritalStatus,
+    occupation = occupation,
+    address = address,
+    provinsi = provinsi,
+    kotaKabupaten = kotaKabupaten,
+    kecamatan = kecamatan,
+    kelurahan = kelurahan,
+    kodePos = kodePos,
+    alamatDomisili = alamatDomisili,
+    provinsiDomisili = provinsiDomisili,
+    kotaKabupatenDomisili = kotaKabupatenDomisili,
+    kecamatanDomisili = kecamatanDomisili,
+    kelurahanDomisili = kelurahanDomisili,
+    kodePosDomisili = kodePosDomisili,
+    ktpFilePath = ktpFilePath,
+    ktpFileSecondaryPath = ktpFileSecondaryPath,
+    syncStatus = syncStatus,
+)
+
+fun Member.toEntity() = MemberEntity(
+    id = id,
+    name = name,
+    nik = nik,
+    phone = phone,
+    birthPlace = birthPlace,
+    birthDate = birthDate,
+    gender = gender,
+    maritalStatus = maritalStatus,
+    occupation = occupation,
+    address = address,
+    provinsi = provinsi,
+    kotaKabupaten = kotaKabupaten,
+    kecamatan = kecamatan,
+    kelurahan = kelurahan,
+    kodePos = kodePos,
+    alamatDomisili = alamatDomisili,
+    provinsiDomisili = provinsiDomisili,
+    kotaKabupatenDomisili = kotaKabupatenDomisili,
+    kecamatanDomisili = kecamatanDomisili,
+    kelurahanDomisili = kelurahanDomisili,
+    kodePosDomisili = kodePosDomisili,
+    ktpFilePath = ktpFilePath,
+    ktpFileSecondaryPath = ktpFileSecondaryPath,
+    syncStatus = syncStatus,
+)

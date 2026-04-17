@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RegisterOffline" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.RegisterOffline.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#3F51B5</item>
+        <item name="postSplashScreenTheme">@style/Theme.RegisterOffline</item>
+    </style>
+</resources>
