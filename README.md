@@ -149,11 +149,7 @@ app/src/main/java/com/registeroffline/
    ```bash
    ./gradlew installDebug
    ```
-
-### API Base URL
-Default: `https://api-test.partaiperindo.com/api/v1/`
-Bisa diubah di `app/build.gradle.kts` pada `buildConfigField`.
-
+\
 ## 🔄 Alur Offline → Sync
 
 1. **Input Offline** — User mengisi form dan tap "Simpan sebagai Draft"
